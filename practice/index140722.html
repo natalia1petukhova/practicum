@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Параметры пользователя</legend>
+                <div class="form-element">
+                    <input type="text" name="imia" placeholder="Введи имя">  
+                </div>
+                <div class="form-element">
+                    <label for="old">Введи количество лет</label>
+                    <input type="number" name="old" id="old">
+                </div>
+                <div class="form-element">
+                    <label for="email">Почта</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-element">
+                    <label for="picture">Загрузи фотку</label>
+                    <input type="file" name="picture" id="picture">
+                </div>
+                <div class="form-element">
+                    <label for="foot">Размер ботинка</label>
+                    <input type="number" name="foot" id="foot" min="1" max="50" step="2" autofocus>
+                </div>
+                <div class="form-element">
+                    <label for="range">Диапозон счастья</label>
+                    <input type="range" name="range" id="range" step="10" value="10">
+                </div>
+                <div class="form-element">
+                    <label for="about">Раскажи о себе</label>
+                    <textarea name="about" id="about" cols="30" rows="10">kukukgukukkukukbu</textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Для выбора</legend>
+                <div class="form-element">
+                    <label for="select_animal">Выбери животное</label>
+                    <select name="select_animal" id="select_animal" multiple required size="1">
+                            <option selected value="dog">Собака</option>
+                            <option value="cat">Кошка</option>
+                            <option value="rat">Крыса</option>         
+                    </select>
+                </div>
+                <div class="form-element">
+                    <div>
+                        <input type="checkbox" name="param1" id="param1" checked>
+                        <label for="param1">param1</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="param1" id="param2">
+                        <label for="param2">param2</label>
+                    </div>
+                </div>
+                <div class="form-element">
+                    <caption>Что сегодня взять на обед</caption>
+                    <div>
+                        <input type="radio" name="break" id="rad1" value="potaty">
+                        <label for="rad1">Картошка</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="break" id="rad2" value="pasta">
+                        <label for="rad2">Макароны</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="break" id="rad3">
+                        <label for="rad3">Тыква</label>
+                    </div>
+                </div>
+                <div class="form-element">
+                    <caption>Что сегодня взять на обед</caption>
+                    <div>
+                        <input type="radio" name="break1" id="rad11">
+                        <label for="rad11">Картошка1</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="break1" id="rad21">
+                        <label for="rad21">Макароны2</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="break1" id="rad31">
+                        <label for="rad31">Тыква3</label>
+                    </div>
+                </div>
+                <div class="form-element">
+                    <input type="color" name="color" id="color">
+                </div>
+            </fieldset>
+            <input type="submit" value="Clic me">
+            <input type="reset" disabled>
+            <input type="button" value="button">
+            <button>Кнопка</button>           
+        </form>
+    </body>
+</html>

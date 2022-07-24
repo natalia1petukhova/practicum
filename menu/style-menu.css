@@ -1,0 +1,25 @@
+.green-menu {
+    /*display: flex;*/
+    display: flex;
+    /*margin: 50px 100px;*/
+    flex-direction: row;
+    justify-content: center;
+    /*flex-direction: column;*/
+    /*justify-content:flex-start;*/
+}
+.green-menu a {
+    /*margin-right: 5px;*/
+    /*margin: 10px 50px;*/
+    /*max-width: 150px;*/
+	padding: 10px 30px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #16a177;
+	background-color: #16a177;  
+}
+.green-menu a:hover, .green-menu :active {
+    color: #ffffff;
+	border: 1px solid #16a177;;
+	background-color: #16785c;   
+}

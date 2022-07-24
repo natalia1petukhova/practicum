@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .text{
+                padding: 0 50px;
+            }
+            .wrap, .wrap1{
+                border: 1px solid yellowgreen;
+                margin-bottom: 10px;
+            }
+            .wrap{
+                padding: 50px 10px;
+            }
+            .wrap1>.text{
+                text-align: center;
+            }
+            .wrap1{
+                display: inline-block;
+                width: 800px;
+            }
+            .wrap2{
+                width: 200px;
+                float: right;
+            }
+            nav>a{
+                border: 1px solid blue;
+                background: blue;
+                padding: 3px 5px;
+                color: white;
+                text-decoration: none;
+                margin: 0 10px; 
+                border-radius: 10px;
+            }
+            nav>a:visited{
+               border-color: red;
+            }
+            nav>a:hover{
+                text-shadow: 5px 5px #558ABB;
+            }
+            nav>a:active{
+                transition: 2s;
+                color: red;
+                background: #558ABB;
+            }
+            .images{
+                display: flex;
+            }
+            .images img{
+                height: 200px;
+                width: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="1.html">page 1</a>
+            <a href="2.html">page 2</a>
+            <a href="tables.html" target="_blank" rel="noopener noreferrer">Табличка</a>
+        </nav>
+        <div class="images">
+            <img src="img/belka.jpg" alt="belka">
+            <img src="belka_strelka.jpg" alt="pict">
+        </div>
+        <div class="wrap">
+            <div class="text" style="float:left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eum?</div>
+            <div class="text">Fugiat iusto ratione nisi voluptatibus nihil illo fugit magni nemo?</div>
+        </div>
+        <div class="wrap1">
+            <div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, laboriosam?</div>
+            <div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, laboriosam?</div>
+        </div>
+        <div class="wrap2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam facere reiciendis et, maxime distinctio fuga consequatur voluptas iste vel.</div>
+    </body>
+</html>

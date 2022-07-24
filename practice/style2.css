@@ -1,0 +1,31 @@
+h1 {
+    color: blue;
+    text-align: center;
+    width: 500px;
+}
+h2 {
+    color: green;
+    text-align: center;
+    font-weight: normal;
+    width: 500px;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+    line-height: 2;
+    font-size: 100%;
+    width: 500px;
+    
+}
+
+
+ul {
+    line-height: 1.5;
+    width: 400px;
+    text-align: justify; 
+}
+
+li > b {
+    color: rgb(204, 25, 25);
+}

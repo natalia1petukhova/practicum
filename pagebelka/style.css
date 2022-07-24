@@ -1,0 +1,25 @@
+.header h1 {
+    color: rgb(188, 14, 14);
+}
+.block1, .block2 {
+	display: flex;
+	justify-content: space-around;
+    flex-direction: row-reverse;
+    color: rgb(255, 255, 255);
+    
+}
+.block12, .block22 {
+    margin: 100px;
+       
+}
+ul {
+    list-style-type: none;
+
+}
+.block11, .block21 {
+    margin: 150px 100px 50px 100px;
+
+}
+body {
+    background-color: rgb(33, 29, 29);
+}	
