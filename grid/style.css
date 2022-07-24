@@ -1,4 +1,58 @@
+.one{
+	background: red;
+	align-self: end;
+}
+.two{
+	background: yellow;
+	grid-column: 1/3;
+	grid-row: 4/7;
+}
+.three{
+	background: yellowgreen;
+	grid-row: 1/4;
+	justify-self: end;
+}
+.four{
+	background: pink;
+	grid-column-start: 2;
+	grid-column-end: -1;
+}
+.five{
+	background: honeydew;
+
+}
+.six{
+	background-color: blue;
+}
 .wrap{
-    display: grid;
-    grid-template-rows: 50px 1fr minmax(100px 1fr);
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: 50px 1fr minmax(100px, 1fr) 6em 50% auto;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: space-evenly;
+}
+.areas{
+	display: grid;
+	grid-template: 150px repeat(2, 1fr) 50rem/300px 1fr 10rem;
+	grid-template-areas: 
+	"head head head"
+	"as main main"
+	"as main main"
+	"foo foo foo";
+}
+.header{
+	grid-area: head;
+	background-color: red;
+}
+.main{
+	grid-area: main;
+	background: pink;
+}
+.footer{
+	grid-area: foo;
+	background: green;
+}
+.asside{
+	grid-area: as;
+	background: blue;
 }
