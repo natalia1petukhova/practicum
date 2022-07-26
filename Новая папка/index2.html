@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<style>
+			.wrap{
+			  height: 20rem;
+			  width: 100%;
+			}
+			.box{
+			  	width: 0;
+			  	background-color: #000;
+			 	color: #fff;
+				transform: scale(0);
+				transform-origin: right top;
+			}
+			.wrap:hover>.box{
+				transform: scale(1);
+				width: 100%;
+				transition-duration: 3s;
+				transition-property: transform;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="box">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Quae pariatur debitis, aperiam quam! Sit vel repudiandae saepe in necessitatibus labore nemo, neque vero laborum ex tempora aperiam illum? Harum, sint.</div>
+		</div>
+
+	</body>
+</html>

@@ -1,7 +1,7 @@
 #wrapper {
     width: 800px;
-    margin:100px auto;
-    border: 3px solid #edce22;
+    margin:20px auto;
+    border: 1px solid #edce22;
     border-color: #edce22;
 }
 
@@ -25,7 +25,7 @@
 }
 #menu a {
     /*margin-right: 5px;*/
-    margin: 10px;
+    /*margin: 10px;*/
     /*max-width: 150px;*/
 	padding: 10px 30px;
 	font: bold 14px Arial;
@@ -37,7 +37,7 @@
 #menu a:hover, #menu:active {
     color: #243ed1;
 	border: 1px solid #edce22;
-	background-color: #edce22;   
+	background-color: #fff;   
 }
 #content {
     padding: 0 20px;
@@ -55,5 +55,22 @@
 }
 .blue {
     color: #243ed1;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    
+
+}
+#footer a {
+    font-family: Arial;
+    font-size: 15px;
+    
+    color: rgb(59, 10, 10);
+    border-color: aquamarine;
+    padding: 10px 15px;
 } 
+#footer a:hover, #footer a:active {
+    color: #090909;
+}
 
