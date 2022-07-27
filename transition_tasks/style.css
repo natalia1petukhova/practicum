@@ -2,10 +2,11 @@
     border: 1px solid red;
     width: 200px;
     height: 100px;
-    /*color: #000;*/
+    color: red;
     background: #fff;
     transition: background 2s;
 }
 .redbox:hover {
     background: red;
+    color: #fff;
 }
