@@ -1,12 +1,18 @@
 .redbox {
+
     border: 1px solid red;
     width: 200px;
-    height: 100px;
-    color: red;
+    height: 50px;
+    /*color: red;*/
     background: #fff;
-    transition: background 2s;
+    
 }
-.redbox:hover {
-    background: red;
-    color: #fff;
+main:hover .redbox{
+    transition-property: width;
+    transition-timing-function: linear;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    /*background: red;*/    
+    /*color: #fff;*/
+    width: 1200px;
 }
