@@ -9,7 +9,7 @@
     color: red;
     font-size:  14px;
     background: #fff;
-    transition-property: width, font-size;
+    transition-property: width, left;
     transition-timing-function: linear-out;
     transition-duration: 3s;
     transition-delay: 1s;
@@ -28,5 +28,6 @@
     /*color: red;*/
     width: 1200px;
     /*transform: scale(2,1.2);*/
-    font-size: 20px;
+    /*font-size: 20px;*/
+    left: 50px;
 }
