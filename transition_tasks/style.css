@@ -1,0 +1,11 @@
+.redbox {
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+    /*color: #000;*/
+    background: #fff;
+    transition: background 2s;
+}
+.redbox:hover {
+    background: red;
+}
