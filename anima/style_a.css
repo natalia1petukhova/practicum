@@ -1,7 +1,8 @@
 div {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     border: 1px solid red;
+    background-color: #fff ;
     position: relative;
     left: 0px;
     animation-name: travel;
@@ -11,6 +12,6 @@ div {
   }
   
   @keyframes travel {
-    from {left: 0px;}
-    to {left: 600px;}
+    from {background-color: #fff;}
+    to {background-color: red;}
   }
