@@ -1,25 +1,23 @@
-div {
-    width: 100px;
-    height: 100px;
+.weiht {
+    width: 40%;
+    height: 50px;
     border: 1px solid red;
-    background-color: #fff;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    animation-name: travel;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-    animation-direction:normal/*по умолчанию*/
+    margin: 10px auto;
+    
+    
+  }
+  .red {
+    background-color: red;
+    width: 0%;
+    height: 50px;
+    animation-name: indicat;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
   }
   
-  @keyframes travel {
-    from {background-color: #fff;left: 0px;top: 0px;}
-    12.5% {background-color: red;}
-    25% {background-color: #fff;left: 600px;top: 0px;}
-    37.5% {background-color: red;}
-    50% {background-color: #fff;left: 600px;top: 300px;}
-    62.5% {background-color: red;}
-    75% {background-color: #fff;left: 0px;top: 300px;}
-    87.5% {background-color: red;}
-    to {background-color: #fff;left: 0px;top: 0px;}
+    @keyframes indicat {
+    from {width: 0%;} 
+    to {width: 100%;}
   }
