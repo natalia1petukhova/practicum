@@ -2,20 +2,24 @@ div {
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    /*background-color: #fff;*/
+    background-color: #fff;
     position: relative;
     left: 0px;
     top: 0px;
     animation-name: travel;
-    animation-duration: 4s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-direction:normal/*по умолчанию*/
   }
   
   @keyframes travel {
-    from {left: 0px;top: 0px;}
-    25% {left: 300px;top: 0px;}
-    50% {left: 300px;top: 300px;}
-    75% {left: 0px;top: 300px;}
-    to {left: 0px;top: 0px;}
+    from {background-color: #fff;left: 0px;top: 0px;}
+    12.5% {background-color: red;}
+    25% {background-color: #fff;left: 600px;top: 0px;}
+    37.5% {background-color: red;}
+    50% {background-color: #fff;left: 600px;top: 300px;}
+    62.5% {background-color: red;}
+    75% {background-color: #fff;left: 0px;top: 300px;}
+    87.5% {background-color: red;}
+    to {background-color: #fff;left: 0px;top: 0px;}
   }
