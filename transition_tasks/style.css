@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     /*border: 1px solid green;*/
     width: 800px;
-    //*padding:20px 20px 0 20px ;*/
+    /*padding:20px 20px 0 20px ;*/
    
     
 }
@@ -16,7 +16,7 @@
     margin-bottom: 20px;
     
 }
-.red:hover+div {
+.red:hover~div {
     width: 100%;
 }
 
