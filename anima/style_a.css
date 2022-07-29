@@ -1,12 +1,18 @@
 .weiht {
-    width: 40%;
+    /*width: 40%;*/
     height: 50px;
     border: 1px solid red;
-    margin: 10px auto;
-    
-    
+    /*margin: 10px auto;*/
+    animation-name: pauseRunning;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-play-state: pause; 
   }
-  .red {
+
+  .weiht:hover {animation-play-state: running;}
+  /*.red {
     background-color: red;
     width: 0%;
     height: 50px;
@@ -15,11 +21,11 @@
     animation-iteration-count:infinite;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
-    animation-direction: normal;
+    animation-direction: alternate;
     
-  }
+  }*/
   
-    @keyframes indicat {
+    @keyframes pauseRunning {
     from {width: 0%;} 
     to {width: 100%;}
   }
