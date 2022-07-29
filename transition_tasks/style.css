@@ -16,7 +16,11 @@
     margin-bottom: 20px;
     
 }
+<<<<<<< HEAD
 .red:hover+div+div {
+=======
+.red:hover~div {
+>>>>>>> 27d1f0098f49f15adf17bcf896bad19e0e4513ea
     width: 100%;
 }
 
