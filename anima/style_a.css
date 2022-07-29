@@ -11,10 +11,12 @@
     width: 0%;
     height: 50px;
     animation-name: indicat;
-    animation-duration: 5s;
-    animation-iteration-count:1;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    animation-direction: normal;
+    
   }
   
     @keyframes indicat {
