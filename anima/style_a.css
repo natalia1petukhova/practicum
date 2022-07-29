@@ -1,29 +1,33 @@
-.red {
-    width: 40%;
-    height: 30px;
+.box {
+    width: 300px;
+    height: 300px;
     border: 1px solid red;
-    padding: 10px 10px 2px 10px;
-    margin-bottom: 30px;
+    position: relative;
     
   }
 
   
-.blue {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
-    animation-name: pauseRunningdiv;
-    animation-duration: 7s;
-    animation-iteration-count:infinite;
-    animation-timing-function: linear;
-    /*animation-fill-mode: forwards;*/
-    animation-direction: alternate;
-    animation-play-state: paused;
+.ball {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: absolute;
+    
+    animation: ball 10s ;
+    
+    
     
     
   }
-  .red:hover + div{animation-play-state: running;}
-    @keyframes pauseRunningdiv {
-    from {width: 0%;} 
-    to {width: 100%;}
+  
+    @keyframes ball {
+    from {left:0px; bottom: 270px;animation-timing-function: ease-in; }
+    25% {left:70px; bottom: 0px; animation-timing-function: ease-out;}
+    45% {left:90px; bottom: 120px;animation-timing-function: ease-in;}
+    60% {left:110px; bottom: 0px; animation-timing-function: ease-out;}
+    70% {left:140px; bottom: 90px;animation-timing-function: ease-in;}
+    80% {left:180px; bottom: 0px; animation-timing-function: ease-out;}
+    90% {left:230px; bottom: 50px;animation-timing-function: ease-in;}
+    to {left:260px; bottom: 0px; animation-timing-function: ease-out;}
   }
