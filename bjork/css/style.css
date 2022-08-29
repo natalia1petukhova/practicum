@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-size: 14px;
+    line-height: 1.2;
+    
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.landing-header{
+    width: 1500px;
+    height: 650px; 
+}
+.container{
+    background-image: url("../img/bjork-1-pade.jpg");
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 650px;
+
+    
+}
+.hidden{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin: -1px;
+    overflow: hidden;
+    opacity: 0;
+}
+.main-nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-left: 140px;
+    padding-top: 1%;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    height: 32px;
+    margin-right: 2px;
+    padding: 2px;
+}
+.logo2{
+    display: block;
+    margin-top: -5px;
+    
+}
+.contact-menu{
+    display: flex;
+}
+.phone-menu{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+
+
+#logo{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 18px;
+   font-weight: normal;
+   padding-right: 2px;
+   width: 50px;
+}
+
+.w-p{
+    color: #fff;
+    font-weight: bold;
+    padding-top: 4%;
+    padding-right: 0px;
+    width: 180px;
+    text-decoration: none;
+}
+.h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 165px auto 0px auto;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.ppp{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    margin: 50px auto 0px auto; 
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+
+    width: 190px;
+    padding: 17px 25px;
+   
+    vertical-align: top;
+    cursor: pointer;
+    
+    
+    
+}
+.btn::after{
+    content:"";
+
+    /*position: absolute;
+    top: 17px;
+    right: 17px;
+
+    width: 19px;
+    height: 16px;
+    background: url(../img/right-arrow-dark.png) no-repeat 0 0;*/
+}
+.btn-yellow{
+    background-color: #EAFF69;
+    width: 250px;
+    text-align: center;
+    margin: 50px auto;
+    display: block;
+    font-size: medium;
+    box-shadow: 2px 2px 2px 1px #fff;
+}
+/*.btn-yellow::after{
+    background: url();
+}*/
+.btn-yellow:hover{
+    background-color: #515726;
+    color: #000;
+}
+.btn-blue:active{
+    background-color: #515726;
+    color: #000;
+}
+.btn-blue{
+    width: 200px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: medium;
+    border: 1px solid  #EAFF69;
+    box-shadow: #222;
+}
+/*.btn-blue::after{
+    background: url();
+}*/
+.btn-blue:hover{
+    color: #EAFF69;
+}
+.btn-blue:active{
+    color: #EAFF69;
+}
+.advantage-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    padding: 2%;
+    color: #fff;
+    text-align: center;
+   
+}
+.advantage-list div{
+    position: relative;
+
+    width: 180px;
+    padding-top: 110px;
+      
+}
+.advantage-list:last-child{
+    margin-right: 0;
+}
+.advantage-list div::after{
+    content: "";
+    top:0;
+    left:0;
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.advantage-quiet-place::after{
+    background: url(../img/forest.png) no-repeat;
+   
+
+}
+.advantage-gulf-of-finland::after{
+    background: url(../img/Boat.png) no-repeat;
+}
+.advantage-comfort::after{
+    background: url(../img/Sofa1.png) no-repeat;
+}
+.advantage-free-time::after{
+   
+    background: url(../img/hobby.png) no-repeat;
+}
+.advantage-good-road::after{
+    background: url(../img/road.png) no-repeat;
+}
+.container1{
+    background-color: #0D1C33;
+    width: 1500px;
+    height: 220px;
+}
+.aaa{
+    background-color: #EAFF69;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+     
+}
